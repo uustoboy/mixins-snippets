@@ -1,0 +1,58 @@
+{
+    "name": "mixins-snippets",
+    "displayName": "mixins-snippets",
+    "description": "base_mixins snippets",
+    "version": "0.0.1",
+    "publisher": "uustoboy",
+    "license": "MIT",
+    "icon": "imgs/mixins-snippets.png",
+    "bugs": {
+        "url": "https://github.com/uustoboy/mixins-snippets/issues",
+        "email": "278659513@qq.com"
+    },
+    "homepage": "https://github.com/uustoboy/mixins-snippets/blob/master/README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/uustoboy/mixins-snippets"
+    },
+    "engines": {
+        "vscode": "^1.26.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "activationEvents": [
+        "onCommand:extension.sayHello"
+    ],
+    "main": "./out/extension",
+    "contributes": {
+        "snippets": [
+            {
+                "language": "scss",
+                "path": "./snippets/scss.json"
+            },
+            {
+                "language": "sass",
+                "path": "./snippets/scss.json"
+            },
+            {
+                "language": "vue",
+                "path": "./snippets/scss.json"
+            }
+        ]
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "npm run compile && node ./node_modules/vscode/bin/test"
+    },
+    "devDependencies": {
+        "typescript": "^2.6.1",
+        "vscode": "^1.1.21",
+        "tslint": "^5.8.0",
+        "@types/node": "^8.10.25",
+        "@types/mocha": "^2.2.42"
+    }
+}
