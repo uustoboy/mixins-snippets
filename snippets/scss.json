@@ -161,7 +161,7 @@
   "@bg": {
     "prefix": "@bg",
     "body": [
-      "@include bg(#,'#{$BG_URL}img.jpg',$position:0 0);"
+      "@include bg(#,'#{$BG_URL}img.jpg',$$position:0 0);"
     ],
     "description": "设置background"
   },
@@ -175,7 +175,7 @@
   "@bgi": {
     "prefix": "@bgi",
     "body": [
-      "@include bgi('#{$BG_URL}img.jpg',$position:0 0);"
+      "@include bgi('#{$BG_URL}img.jpg',$$position:0 0);"
     ],
     "description": "设置background-image"
   },
@@ -196,7 +196,7 @@
   "@bgiz": {
     "prefix": "@bgiz",
     "body": [
-      "@include bgiz('#{$BG_URL}img.jpg',$position:0 0);"
+      "@include bgiz('#{$BG_URL}img.jpg',$$position:0 0);"
     ],
     "description": "设置background-image && background-size"
   },
@@ -280,7 +280,7 @@
       "\t                    '.sprite-',",
       "\t                    '.sprite-',",
       "\t                    '.sprite-',",
-      "\t                    '.sprite-',),2,3,163,$dir:y);"
+      "\t                    '.sprite-',),2,3,163,$$dir:y);"
     ],
     "description": "css sprite:矩阵图形(默认X轴开始)"
   },
