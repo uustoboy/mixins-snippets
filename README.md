@@ -4,13 +4,30 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE) 
 [![GitHub stars](https://img.shields.io/github/stars/uustoboy/mixins-snippets.svg?style=social&label=Star%20on%20Github)](https://github.com/uustoboy/mixins-snippets)
 
-# 基于 [base_mixins](https://github.com/uustoboy/base_mixins) 的提示插件
+# 为 [base_mixins](https://github.com/uustoboy/base_mixins) 做的 vs code 提示插件
 
 ### 使用:
-![image](https://github.com/uustoboy/mixins-snippets/raw/master/imgs/use.gif);<br/>
+<table>
+  <tbody>
+    <tr>
+      <td>@wh</td>
+      <td>@include wh()</td>
+    </tr>
+    <tr>
+      <td>@flc</td>
+      <td>@include flc()</td>
+    </tr>
+    <tr>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+  </tbody>
+</table>
 
-文件 mixins-snippets-0.0.1.vsix 可以本地安装
-![image](https://github.com/uustoboy/mixins-snippets/raw/master/imgs/install.gif);<br/>
+![image](https://github.com/uustoboy/mixins-snippets/raw/master/imgs/use.gif)<br/>
+
+### 文件 mixins-snippets-0.0.1.vsix 可以本地安装
+![image](https://github.com/uustoboy/mixins-snippets/raw/master/imgs/install.gif)<br/>
 
 ### 感谢参考文章:
 - [《vscode编写插件详细过程》](https://www.cnblogs.com/caipeiyu/p/5507252.html) -- 感谢 [蛀牙](https://www.cnblogs.com/caipeiyu/)
