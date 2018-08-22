@@ -83,8 +83,8 @@
     ],
     "description": "$wxDesignWidth 微信小程序转rpx默认尺寸大小"
   },
-  "@keyframes": {
-    "prefix": "@keyframes",
+  "keyframes": {
+    "prefix": "keyframes",
     "body": [
       " @include keyframes(animation-name) {",
       "\t  0% {",
@@ -95,176 +95,176 @@
     ],
     "description": "设置@keyframes 规则"
   },
-  "@ani": {
-    "prefix": "@ani",
+  "ani": {
+    "prefix": "ani",
     "body": [
       "@include ani(keyframes-name 5s infinite);"
     ],
     "description": "设置animation"
   },
-  "@ani-name": {
-    "prefix": "@ani-name",
+  "ani-name": {
+    "prefix": "ani-name",
     "body": [
       "@include ani-name(keyframes-name);"
     ],
     "description": "设置animation-name"
   },
-  "@ani-dur": {
-    "prefix": "@ani-dur",
+  "ani-dur": {
+    "prefix": "ani-dur",
     "body": [
       "@include ani-dur();"
     ],
     "description": "设置animation-duration"
   },
-  "@ani-time": {
-    "prefix": "@ani-time",
+  "ani-time": {
+    "prefix": "ani-time",
     "body": [
       "@include ani-time();"
     ],
     "description": "设置animation-timing-function"
   },
-  "@ani-itc": {
-    "prefix": "@ani-itc",
+  "ani-itc": {
+    "prefix": "ani-itc",
     "body": [
       "@include ani-itc(1);"
     ],
     "description": "设置animation-iteration-count"
   },
-  "@ani-dir": {
-    "prefix": "@ani-dir",
+  "ani-dir": {
+    "prefix": "ani-dir",
     "body": [
       "@include ani-dir();"
     ],
     "description": "设置animation-direction"
   },
-  "@ani-play": {
-    "prefix": "@ani-play",
+  "ani-play": {
+    "prefix": "ani-play",
     "body": [
       "@include ani-play();"
     ],
     "description": "设置animation-play-state"
   },
-  "@ani-del": {
-    "prefix": "@ani-del",
+  "ani-del": {
+    "prefix": "ani-del",
     "body": [
       " @include ani-del(0.5s);"
     ],
     "description": "设置animation-delay"
   },
-  "@ani-fill": {
-    "prefix": "@ani-fill",
+  "ani-fill": {
+    "prefix": "ani-fill",
     "body": [
       " @include ani-fill(forwards);"
     ],
     "description": "设置animation-fill-mode"
   },
-  "@bg": {
-    "prefix": "@bg",
+  "bg": {
+    "prefix": "bg",
     "body": [
       "@include bg(#,'#{$BG_URL}img.jpg',$$position:0 0);"
     ],
     "description": "设置background"
   },
-  "@no-bg": {
-    "prefix": "@no-bg",
+  "no-bg": {
+    "prefix": "no-bg",
     "body": [
       "@include no-bg();"
     ],
     "description": "取消背景background:none "
   },
-  "@bgi": {
-    "prefix": "@bgi",
+  "bgi": {
+    "prefix": "bgi",
     "body": [
       "@include bgi('#{$BG_URL}img.jpg',$$position:0 0);"
     ],
     "description": "设置background-image"
   },
-  "@bgr": {
-    "prefix": "@bgr",
+  "bgr": {
+    "prefix": "bgr",
     "body": [
       "@include bgr(no-repeat);"
     ],
     "description": "设置background-repeat"
   },
-  "@bgz": {
-    "prefix": "@bgz",
+  "bgz": {
+    "prefix": "bgz",
     "body": [
       "@include bgz();"
     ],
     "description": "设置background-size"
   },
-  "@bgiz": {
-    "prefix": "@bgiz",
+  "bgiz": {
+    "prefix": "bgiz",
     "body": [
       "@include bgiz('#{$BG_URL}img.jpg',$$position:0 0);"
     ],
     "description": "设置background-image && background-size"
   },
-  "@bg-clip": {
-    "prefix": "@bg-clip",
+  "bg-clip": {
+    "prefix": "bg-clip",
     "body": [
       "@include bg-clip();"
     ],
     "description": "设置background-clip"
   },
-  "@bgo": {
-    "prefix": "@bgo",
+  "bgo": {
+    "prefix": "bgo",
     "body": [
       "@include bgo();"
     ],
     "description": "设置background-origin"
   },
-  "@bgp": {
-    "prefix": "@bgp",
+  "bgp": {
+    "prefix": "bgp",
     "body": [
       "@include bgp(0 0);"
     ],
     "description": "设置background-position"
   },
-  "@bgc": {
-    "prefix": "@bgc",
+  "bgc": {
+    "prefix": "bgc",
     "body": [
       "@include bgc(#);"
     ],
     "description": "设置background-color"
   },
-  "@max-img": {
-    "prefix": "@max-img",
+  "max-img": {
+    "prefix": "max-img",
     "body": [
       "@include max-img;"
     ],
     "description": "用max-width来防止图片撑破容器"
   },
-  "@bg-image": {
-    "prefix": "@bg-image",
+  "bg-image": {
+    "prefix": "bg-image",
     "body": [
       "@include bg-image('#{$BG_URL}img.png');"
     ],
     "description": " 设置@2x/@3x 背景图片"
   },
-  "@fullscreen-bg": {
-    "prefix": "@fullscreen-bg",
+  "fullscreen-bg": {
+    "prefix": "fullscreen-bg",
     "body": [
       "@include fullscreen-bg('#{$BG_URL}img.png');"
     ],
     "description": "设置全屏大图背景"
   },
-  "@bg-sp": {
-    "prefix": "@bg-sp",
+  "bg-sp": {
+    "prefix": "bg-sp",
     "body": [
       "@include bg-sp('.sprite-ico',5,163);"
     ],
     "description": "css sprite:只能X轴、Y轴(默认Y轴)"
   },
-  "@bg-sp2": {
-    "prefix": "@bg-sp2",
+  "bg-sp2": {
+    "prefix": "bg-sp2",
     "body": [
       "@include bg-sp2('.sprite-ico',2,3,163);"
     ],
     "description": "css sprite:矩阵图形(默认X轴开始)"
   },
-  "@bgList-sp": {
-    "prefix": "@bgList-sp",
+  "bgList-sp": {
+    "prefix": "bgList-sp",
     "body": [
       "@include bgList-sp( ('.sprite-name',",
       "\t                   '.sprite-sex',",
@@ -272,8 +272,8 @@
     ],
     "description": "css sprite:只能X轴、Y轴(默认Y轴)"
   },
-  "@bgList-sp2": {
-    "prefix": "@bgList-sp2",
+  "bgList-sp2": {
+    "prefix": "bgList-sp2",
     "body": [
       "@include bgList-sp2( ('.sprite-',",
       "\t                    '.sprite-',",
@@ -284,617 +284,617 @@
     ],
     "description": "css sprite:矩阵图形(默认X轴开始)"
   },
-  "@block": {
-    "prefix": "@block",
+  "block": {
+    "prefix": "block",
     "body": [
       "@include block();"
     ],
     "description": "设置display:block"
   },
-  "@inline": {
-    "prefix": "@inline",
+  "inline": {
+    "prefix": "inline",
     "body": [
       "@include inline;"
     ],
     "description": "设置display:inline"
   },
-  "@inblock": {
-    "prefix": "@inblock",
+  "inblock": {
+    "prefix": "inblock",
     "body": [
       "@include inblock;"
     ],
     "description": "设置display:inline-block"
   },
-  "@box": {
-    "prefix": "@box",
+  "box": {
+    "prefix": "box",
     "body": [
       "@include box;"
     ],
     "description": "设置display:box"
   },
-  "@table": {
-    "prefix": "@table",
+  "table": {
+    "prefix": "table",
     "body": [
       "@include table;"
     ],
     "description": "设置display:table"
   },
-  "@none": {
-    "prefix": "@none",
+  "none": {
+    "prefix": "none",
     "body": [
       "@include none();"
     ],
     "description": "设置display:none"
   },
-  "@show": {
-    "prefix": "@show",
+  "show": {
+    "prefix": "show",
     "body": [
       "@include show;"
     ],
     "description": "设置display:block"
   },
-  "@hide": {
-    "prefix": "@hide",
+  "hide": {
+    "prefix": "hide",
     "body": [
       "@include hide;"
     ],
     "description": "设置display:none"
   },
-  "@box-sz": {
-    "prefix": "@box-sz",
+  "box-sz": {
+    "prefix": "box-sz",
     "body": [
       "@include box-sz(border-box);"
     ],
     "description": "设置box-sizing"
   },
-  "@box-fx": {
-    "prefix": "@box-fx",
+  "box-fx": {
+    "prefix": "box-fx",
     "body": [
       "@include box-fx();"
     ],
     "description": "设置box-flex:1"
   },
-  "@box-o": {
-    "prefix": "@box-o",
+  "box-o": {
+    "prefix": "box-o",
     "body": [
       "@include box-o(horizontal);"
     ],
     "description": "设置box-orient:block-axis"
   },
-  "@horizontal": {
-    "prefix": "@horizontal",
+  "horizontal": {
+    "prefix": "horizontal",
     "body": [
       "@include horizontal;"
     ],
     "description": "设置box-orient:horizontal"
   },
-  "@vertical": {
-    "prefix": "@vertical",
+  "vertical": {
+    "prefix": "vertical",
     "body": [
       "@include vertical;"
     ],
     "description": "设置box-orient:vertical"
   },
-  "@reverse": {
-    "prefix": "@reverse",
+  "reverse": {
+    "prefix": "reverse",
     "body": [
       "@include reverse;"
     ],
     "description": "设置box-direction:reverse"
   },
-  "@box-dir": {
-    "prefix": "@box-dir",
+  "box-dir": {
+    "prefix": "box-dir",
     "body": [
       "@include box-dir(reverse);"
     ],
     "description": "设置box-direction"
   },
-  "@no-box-dir": {
-    "prefix": "@no-box-dir",
+  "no-box-dir": {
+    "prefix": "no-box-dir",
     "body": [
       "@include no-box-dir;"
     ],
     "description": "默认方向方向排列box-direction:normal"
   },
-  "@box-a": {
-    "prefix": "@box-a",
+  "box-a": {
+    "prefix": "box-a",
     "body": [
       "@include box-a(center);"
     ],
     "description": "设置box-align"
   },
-  "@flex": {
-    "prefix": "@flex",
+  "flex": {
+    "prefix": "flex",
     "body": [
       "@include flex;"
     ],
     "description": "设置display:flex"
   },
-  "@inflex": {
-    "prefix": "@inflex",
+  "inflex": {
+    "prefix": "inflex",
     "body": [
       "@include inflex;"
     ],
     "description": "设置display:inline-flex"
   },
-  "@fx": {
-    "prefix": "@fx",
+  "fx": {
+    "prefix": "fx",
     "body": [
       "@include fx();"
     ],
     "description": "设置flex"
   },
-  "@fx-dir": {
-    "prefix": "@fx-dir",
+  "fx-dir": {
+    "prefix": "fx-dir",
     "body": [
       "@include fx-dir(row);"
     ],
     "description": "设置flex-direction"
   },
-  "@fx-row": {
-    "prefix": "@fx-row",
+  "fx-row": {
+    "prefix": "fx-row",
     "body": [
       "@include fx-row();"
     ],
     "description": "设置flex-direction:row"
   },
-  "@fx-w": {
-    "prefix": "@fx-w",
+  "fx-w": {
+    "prefix": "fx-w",
     "body": [
       "@include fx-w(wrap);"
     ],
     "description": "设置flex-wrap"
   },
-  "@fx-f": {
-    "prefix": "@fx-f",
+  "fx-f": {
+    "prefix": "fx-f",
     "body": [
       "@include fx-f(row wrap);"
     ],
     "description": "设置flex-flow"
   },
-  "@jc": {
-    "prefix": "@jc",
+  "jc": {
+    "prefix": "jc",
     "body": [
       "@include jc(flex-start);"
     ],
     "description": "设置justify-content"
   },
-  "@ai": {
-    "prefix": "@ai",
+  "ai": {
+    "prefix": "ai",
     "body": [
       "@include ai(flex-start);"
     ],
     "description": "设置align-items"
   },
-  "@ac": {
-    "prefix": "@ac",
+  "ac": {
+    "prefix": "ac",
     "body": [
       "@include ac(flex-start);"
     ],
     "description": "设置align-content"
   },
-  "@as": {
-    "prefix": "@as",
+  "as": {
+    "prefix": "as",
     "body": [
       "@include as(1);"
     ],
     "description": "设置align-self"
   },
-  "@fx-start": {
-    "prefix": "@fx-start",
+  "fx-start": {
+    "prefix": "fx-start",
     "body": [
       "@include fx-start(jc);"
     ],
     "description": "设置flex-start"
   },
-  "@fx-end": {
-    "prefix": "@fx-end",
+  "fx-end": {
+    "prefix": "fx-end",
     "body": [
       "@include fx-end(jc);"
     ],
     "description": "设置flex-end"
   },
-  "@fx-center": {
-    "prefix": "@fx-center",
+  "fx-center": {
+    "prefix": "fx-center",
     "body": [
       "@include fx-center(js);"
     ],
     "description": "设置fx-center"
   },
-  "@fx-between": {
-    "prefix": "@fx-between",
+  "fx-between": {
+    "prefix": "fx-between",
     "body": [
       "@include fx-between(js);"
     ],
     "description": "设置fx-between"
   },
-  "@fx-around": {
-    "prefix": "@fx-around",
+  "fx-around": {
+    "prefix": "fx-around",
     "body": [
       "@include fx-around(js);"
     ],
     "description": "设置fx-around"
   },
-  "@fx-baseline": {
-    "prefix": "@fx-baseline",
+  "fx-baseline": {
+    "prefix": "fx-baseline",
     "body": [
       "@include fx-baseline;"
     ],
     "description": "设置align-items:baseline"
   },
-  "@fx-stretch": {
-    "prefix": "@fx-stretch",
+  "fx-stretch": {
+    "prefix": "fx-stretch",
     "body": [
       "@include fx-stretch(ac);"
     ],
     "description": "设置stretch"
   },
-  "@odr": {
-    "prefix": "@odr",
+  "odr": {
+    "prefix": "odr",
     "body": [
       "@include odr(1);"
     ],
     "description": "设置order"
   },
-  "@fx-g": {
-    "prefix": "@fx-g",
+  "fx-g": {
+    "prefix": "fx-g",
     "body": [
       "@include 设置fx-g(1);"
     ],
     "description": "设置flex-grow"
   },
-  "@fx-s": {
-    "prefix": "@fx-s",
+  "fx-s": {
+    "prefix": "fx-s",
     "body": [
       "@include fx-s(1);"
     ],
     "description": "设置flex-shrink"
   },
-  "@fx-b": {
-    "prefix": "@fx-b",
+  "fx-b": {
+    "prefix": "fx-b",
     "body": [
       "@include fx-b(1);"
     ],
     "description": "设置flex-basis"
   },
-  "@gd": {
-    "prefix": "@gd",
+  "gd": {
+    "prefix": "gd",
     "body": [
       "@include gd;"
     ],
     "description": "设置display:grid"
   },
-  "@gd-t-cols": {
-    "prefix": "@gd-t-cols",
+  "gd-t-cols": {
+    "prefix": "gd-t-cols",
     "body": [
       "@include gd-t-cols(0px 1fr);"
     ],
     "description": "设置grid-template-columns"
   },
-  "@gd-t-rows": {
-    "prefix": "@gd-t-rows",
+  "gd-t-rows": {
+    "prefix": "gd-t-rows",
     "body": [
       "@include gd-t-rows(0 1fr 0);"
     ],
     "description": "设置grid-template-rows"
   },
-  "@gd-row-gap": {
-    "prefix": "@gd-row-gap",
+  "gd-row-gap": {
+    "prefix": "gd-row-gap",
     "body": [
       "@include gd-row-gap(20);"
     ],
     "description": "设置grid-row-gap"
   },
-  "@gd-column-gap": {
-    "prefix": "@gd-column-gap",
+  "gd-column-gap": {
+    "prefix": "gd-column-gap",
     "body": [
       "@include gd-column-gap(0);"
     ],
     "description": "设置grid-column-gap"
   },
-  "@gd-gap": {
-    "prefix": "@gd-gap",
+  "gd-gap": {
+    "prefix": "gd-gap",
     "body": [
       "@include gd-gap(0);"
     ],
     "description": "设置grid-gap"
   },
-  "@gd-col-start": {
-    "prefix": "@gd-col-start",
+  "gd-col-start": {
+    "prefix": "gd-col-start",
     "body": [
       "@include gd-col-start(1);"
     ],
     "description": "设置grid-column-start"
   },
-  "@gd-col-end": {
-    "prefix": "@gd-col-end",
+  "gd-col-end": {
+    "prefix": "gd-col-end",
     "body": [
       "@include gd-col-end(auto);"
     ],
     "description": "设置grid-column-end"
   },
-  "@gd-col": {
-    "prefix": "@gd-col",
+  "gd-col": {
+    "prefix": "gd-col",
     "body": [
       "@include gd-col(0 0);"
     ],
     "description": "设置grid-column"
   },
-  "@gd-row-start": {
-    "prefix": "@gd-row-start",
+  "gd-row-start": {
+    "prefix": "gd-row-start",
     "body": [
       "@include gd-row-start(1);"
     ],
     "description": "设置grid-row-start"
   },
-  "@gd-row-end": {
-    "prefix": "@gd-row-end",
+  "gd-row-end": {
+    "prefix": "gd-row-end",
     "body": [
       "@include gd-row-end(1);"
     ],
     "description": "设置grid-row-end"
   },
-  "@gd-row": {
-    "prefix": "@gd-row",
+  "gd-row": {
+    "prefix": "gd-row",
     "body": [
       "@include gd-row(0 0)"
     ],
     "description": "设置grid-row"
   },
-  "@gd-auto-rows": {
-    "prefix": "@gd-auto-rows",
+  "gd-auto-rows": {
+    "prefix": "gd-auto-rows",
     "body": [
       "@include gd-auto-rows(1fr);"
     ],
     "description": "设置grid-auto-rows"
   },
-  "@gd-t-areas": {
-    "prefix": "@gd-t-areas",
+  "gd-t-areas": {
+    "prefix": "gd-t-areas",
     "body": [
       "@include gd-t-areas(none);"
     ],
     "description": "设置grid-template-areas"
   },
-  "@ji": {
-    "prefix": "@ji",
+  "ji": {
+    "prefix": "ji",
     "body": [
       "@include ji(center);"
     ],
     "description": "设置justify-items"
   },
-  "@js": {
-    "prefix": "@js",
+  "js": {
+    "prefix": "js",
     "body": [
       "@include js(flex-start);"
     ],
     "description": "设置justify-self"
   },
-  "@fl": {
-    "prefix": "@fl",
+  "fl": {
+    "prefix": "fl",
     "body": [
       "@include fl;"
     ],
     "description": "设置float:left"
   },
-  "@fr": {
-    "prefix": "@fr",
+  "fr": {
+    "prefix": "fr",
     "body": [
       "@include fr;"
     ],
     "description": "设置float:right"
   },
-  "@float": {
-    "prefix": "@float",
+  "float": {
+    "prefix": "float",
     "body": [
       "@include float(left);"
     ],
     "description": "设置float"
   },
-  "@clear": {
-    "prefix": "@clear",
+  "clear": {
+    "prefix": "clear",
     "body": [
       "@include clear;"
     ],
     "description": "清浮动clear"
   },
-  "@css3": {
-    "prefix": "@css3",
+  "css3": {
+    "prefix": "css3",
     "body": [
       "@include css3();"
     ],
     "description": "添加css3前缀"
   },
-  "@cnt": {
-    "prefix": "@cnt",
+  "cnt": {
+    "prefix": "cnt",
     "body": [
       "@include cnt();"
     ],
     "description": "设置content"
   },
-  "@trs": {
-    "prefix": "@trs",
+  "trs": {
+    "prefix": "trs",
     "body": [
       "@include trs(all 0.3s ease);"
     ],
     "description": "设置transition"
   },
-  "@trs-p": {
-    "prefix": "@trs-p",
+  "trs-p": {
+    "prefix": "trs-p",
     "body": [
       "@include trs-p()"
     ],
     "description": "设置transition-property"
   },
-  "@trs-dur": {
-    "prefix": "@trs-dur",
+  "trs-dur": {
+    "prefix": "trs-dur",
     "body": [
       "@include trs-dur(0.2s);"
     ],
     "description": "设置transition-duration"
   },
-  "@trs-tf": {
-    "prefix": "@trs-tf",
+  "trs-tf": {
+    "prefix": "trs-tf",
     "body": [
       "@include trs-tf(0.2s);"
     ],
     "description": "设置transition-timing-function"
   },
-  "@trs-del": {
-    "prefix": "@trs-del",
+  "trs-del": {
+    "prefix": "trs-del",
     "body": [
       "@include trs-del(0.2s);"
     ],
     "description": "设置transition-delay"
   },
-  "@bdrs": {
-    "prefix": "@bdrs",
+  "bdrs": {
+    "prefix": "bdrs",
     "body": [
       "@include bdrs(5);"
     ],
     "description": "设置border-radius"
   },
-  "@box-s": {
-    "prefix": "@box-s",
+  "box-s": {
+    "prefix": "box-s",
     "body": [
       "@include box-s(0 0 4px rgba(0,0,0,.3));"
     ],
     "description": "设置box-shadow"
   },
-  "@text-s": {
-    "prefix": "@text-s",
+  "text-s": {
+    "prefix": "text-s",
     "body": [
       "@include text-s(0 0 4px rgba(0,0,0,.3));"
     ],
     "description": "设置text-shadow"
   },
-  "@no-box-s": {
-    "prefix": "@no-box-s",
+  "no-box-s": {
+    "prefix": "no-box-s",
     "body": [
       "@include no-box-s;"
     ],
     "description": "设置box-shadow:none"
   },
-  "@no-text-s": {
-    "prefix": "@no-text-s",
+  "no-text-s": {
+    "prefix": "no-text-s",
     "body": [
       "@include no-text-s;"
     ],
     "description": "设置text-shadow:none"
   },
-  "@usr-s": {
-    "prefix": "@usr-s",
+  "usr-s": {
+    "prefix": "usr-s",
     "body": [
       "@include usr-s(text);"
     ],
     "description": "设置user-select"
   },
-  "@user-s-ban": {
-    "prefix": "@user-s-ban",
+  "user-s-ban": {
+    "prefix": "user-s-ban",
     "body": [
       "@include user-s-ban();"
     ],
     "description": "设置禁止文本被选择"
   },
-  "@trf": {
-    "prefix": "@trf",
+  "trf": {
+    "prefix": "trf",
     "body": [
       "@include trf();"
     ],
     "description": "设置transform"
   },
-  "@trf-o": {
-    "prefix": "@trf-o",
+  "trf-o": {
+    "prefix": "trf-o",
     "body": [
       "@include trf-o(0% 0%);"
     ],
     "description": "设置transform-origin"
   },
-  "@trf-s": {
-    "prefix": "@trf-s",
+  "trf-s": {
+    "prefix": "trf-s",
     "body": [
       "@include trf-s(preserve-3d);"
     ],
     "description": "设置transform-style"
   },
-  "@bv": {
-    "prefix": "@bv",
+  "bv": {
+    "prefix": "bv",
     "body": [
       "@include bv(hidden);"
     ],
     "description": "设置backface-visibility"
   },
-  "@pec": {
-    "prefix": "@pec",
+  "pec": {
+    "prefix": "pec",
     "body": [
       "@include pec(none);"
     ],
     "description": "设置perspective"
   },
-  "@pec-o": {
-    "prefix": "@pec-o",
+  "pec-o": {
+    "prefix": "pec-o",
     "body": [
       "@include pec-o(50% 50%);"
     ],
     "description": "设置perspective-origin"
   },
-  "@pec-ox": {
-    "prefix": "@pec-ox",
+  "pec-ox": {
+    "prefix": "pec-ox",
     "body": [
        "@include pec-ox(50%);"
     ],
     "description": "设置perspective-origin-x"
   },
-  "@pec-oy": {
-    "prefix": "@pec-oy",
+  "pec-oy": {
+    "prefix": "pec-oy",
     "body": [
       "@include pec-oy(50%);"
     ],
     "description": "设置perspective-origin-y"
   },
-  "@rotate": {
-    "prefix": "@rotate",
+  "rotate": {
+    "prefix": "rotate",
     "body": [
       "@include rotate(0deg);"
     ],
     "description": "设置transform:rotate"
   },
-  "@pe": {
-    "prefix": "@pe",
+  "pe": {
+    "prefix": "pe",
     "body": [
       "@include pe(none);"
     ],
     "description": "设置pointer-events"
   },
-  "@flt": {
-    "prefix": "@flt",
+  "flt": {
+    "prefix": "flt",
     "body": [
       "@include flt();"
     ],
     "description": "设置filter"
   },
-  "@blur": {
-    "prefix": "@blur",
+  "blur": {
+    "prefix": "blur",
     "body": [
       "@include blur();"
     ],
     "description": "设置模糊"
   },
-  "@grayscale": {
-    "prefix": "@grayscale",
+  "grayscale": {
+    "prefix": "grayscale",
     "body": [
       "@include grayscale(100%);"
     ],
     "description": "设置图片灰色"
   },
-  "@beauty-placeholder": {
-    "prefix": "@beauty-placeholder",
+  "beauty-placeholder": {
+    "prefix": "beauty-placeholder",
     "body": [
       "@include beauty-placeholder(12,#ccc,left);"
     ],
     "description": "设置placeholder"
   },
-  "@beauty-placeholder2": {
-    "prefix": "@beauty-placeholder",
+  "beauty-placeholder2": {
+    "prefix": "beauty-placeholder",
     "body": [
       "@include beauty-placeholder2{",
       "\t color:#ccc;",
@@ -903,8 +903,15 @@
     ],
     "description": "自定义placeholder"
   },
-  "@scrollbar": {
-    "prefix": "@scrollbar",
+  "beauty-select": {
+    "prefix": "beauty-select",
+    "body": [
+      "@include beauty-select(#,#);"
+    ],
+    "description": "美化选中文本"
+  },
+  "scrollbar": {
+    "prefix": "scrollbar",
     "body": [
       "@include scrollbar(scrollbar-track){",
       "\t #{$browser}box-shadow: inset 0 0 6px rgba(0,0,0,0.3);",
@@ -921,1051 +928,1051 @@
     ],
     "description": "设置css3滚动条"
   },
-  "@tofl": {
-    "prefix": "@tofl",
+  "tofl": {
+    "prefix": "tofl",
     "body": [
       "@include tofl;"
     ],
     "description": "设置超出一行...."
   },
-  "@erow": {
-    "prefix": "@erow",
+  "erow": {
+    "prefix": "erow",
     "body": [
       "@include erow(2);"
     ],
     "description": "多行显示..."
   },
-  "@ws": {
-    "prefix": "@ws",
+  "ws": {
+    "prefix": "ws",
     "body": [
       "@include ws();"
     ],
     "description": "强制一行"
   },
-  "@wm": {
-    "prefix": "@wm",
+  "wm": {
+    "prefix": "wm",
     "body": [
       "@include wm();"
     ],
     "description": "文字排列方式"
   },
-  "@bword": {
-    "prefix": "@bword",
+  "bword": {
+    "prefix": "bword",
     "body": [
       "@include bword;"
     ],
     "description": "强制折行"
   },
-  "@wdw": {
-    "prefix": "@wdw",
+  "wdw": {
+    "prefix": "wdw",
     "body": [
       "@include wdw;"
     ],
     "description": "断行"
   },
-  "@hide-text": {
-    "prefix": "@hide-text",
+  "hide-text": {
+    "prefix": "hide-text",
     "body": [
       "@include hide-text();"
     ],
     "description": "隐藏文字"
   },
-  "@ti": {
-    "prefix": "@ti",
+  "ti": {
+    "prefix": "ti",
     "body": [
       "@include ti(2em);"
     ],
     "description": "设置text-indent"
   },
-  "@replace-text": {
-    "prefix": "@replace-text",
+  "replace-text": {
+    "prefix": "replace-text",
     "body": [
       "@include replace-text('#{$BG_URL}img.jpg',0 0);"
     ],
     "description": "设置ico图标"
   },
-  "@tal": {
-    "prefix": "@tal",
+  "tal": {
+    "prefix": "tal",
     "body": [
       "@include tal;"
     ],
     "description": "设置text-align:left"
   },
-  "@tar": {
-    "prefix": "@tar",
+  "tar": {
+    "prefix": "tar",
     "body": [
       "@include tar;"
     ],
     "description": "设置text-align:right"
   },
-  "@tac": {
-    "prefix": "@tac",
+  "tac": {
+    "prefix": "tac",
     "body": [
       "@include tac;"
     ],
     "description": "设置text-align:center"
   },
-  "@ta": {
-    "prefix": "@ta",
+  "ta": {
+    "prefix": "ta",
     "body": [
       "@include ta();"
     ],
     "description": "设置text-align"
   },
-  "@tj": {
-    "prefix": "@tj",
+  "tj": {
+    "prefix": "tj",
     "body": [
       "@include tj();"
     ],
     "description": "设置text-justify"
   },
-  "@td": {
-    "prefix": "@td",
+  "td": {
+    "prefix": "td",
     "body": [
       "@include td();"
     ],
     "description": "设置text-decoration"
   },
-  "@line-over": {
-    "prefix": "@line-over",
+  "line-over": {
+    "prefix": "line-over",
     "body": [
       "@include line-over;"
     ],
     "description": "设置text-decoration:overline"
   },
-  "@line-del": {
-    "prefix": "@line-del",
+  "line-del": {
+    "prefix": "line-del",
     "body": [
       "@include line-del;"
     ],
     "description": "设置text-decoration:line-through"
   },
-  "@line-underline": {
-    "prefix": "@line-underline",
+  "line-underline": {
+    "prefix": "line-underline",
     "body": [
       "@include line-underline;"
     ],
     "description": "设置text-decoration:underline"
   },
-  "@no-line": {
-    "prefix": "@no-line",
+  "no-line": {
+    "prefix": "no-line",
     "body": [
       "@include no-line;"
     ],
     "description": "设置text-decoration:none !important"
   },
-  "@w": {
-    "prefix": "@w",
+  "w": {
+    "prefix": "w",
     "body": [
       "@include w();"
     ],
     "description": "设置width"
   },
-  "@h": {
-    "prefix": "@h",
+  "h": {
+    "prefix": "h",
     "body": [
       "@include h();"
     ],
     "description": "设置height"
   },
-  "@mah": {
-    "prefix": "@mah",
+  "mah": {
+    "prefix": "mah",
     "body": [
       "@include mah();"
     ],
     "description": "设置max-height"
   },
-  "@maw": {
-    "prefix": "@maw",
+  "maw": {
+    "prefix": "maw",
     "body": [
       "@include maw();"
     ],
     "description": "设置max-width"
   },
-  "@mih": {
-    "prefix": "@mih",
+  "mih": {
+    "prefix": "mih",
     "body": [
       "@include mih();"
     ],
     "description": "设置min-height"
   },
-  "@miw": {
-    "prefix": "@miw",
+  "miw": {
+    "prefix": "miw",
     "body": [
       "@include miw();"
     ],
     "description": "设置min-width"
   },
-  "@size": {
-    "prefix": "@size",
+  "size": {
+    "prefix": "size",
     "body": [
       "@include size();"
     ],
     "description": "设置width/height"
   },
-  "@px2rem": {
-    "prefix": "@px2rem",
+  "px2rem": {
+    "prefix": "px2rem",
     "body": [
       "px2rem()"
     ],
     "description": "px转rem"
   },
-  "@gpx2rem": {
-    "prefix": "@gpx2rem",
+  "gpx2rem": {
+    "prefix": "gpx2rem",
     "body": [
       "gpx2rem()"
     ],
     "description": "简单rem多值转行"
   },
-  "@px2rpx": {
-    "prefix": "@px2rpx",
+  "px2rpx": {
+    "prefix": "px2rpx",
     "body": [
       "px2rpx()"
     ],
     "description": "微信小程序rpx单位函数"
   },
-  "@gpx2rpx": {
-    "prefix": "@gpx2rpx",
+  "gpx2rpx": {
+    "prefix": "gpx2rpx",
     "body": [
       "gpx2rpx()"
     ],
     "description": "简单rpx多值转行"
   },
-  "@pos": {
-    "prefix": "@pos",
+  "pos": {
+    "prefix": "pos",
     "body": [
       "@include pos(absolute,(t:0,l:0,w:0,h:0,z:1));"
     ],
     "description": "设置position"
   },
-  "@abs": {
-    "prefix": "@abs",
+  "abs": {
+    "prefix": "abs",
     "body": [
       "@include abs((t:0,l:0,w:0,h:0,z:1));"
     ],
     "description": "设置position: absolute"
   },
-  "@rel": {
-    "prefix": "@rel",
+  "rel": {
+    "prefix": "rel",
     "body": [
       "@include rel((t:0,l:0,w:0,h:0,z:1));"
     ],
     "description": "设置position: relative"
   },
-  "@fixed": {
-    "prefix": "@fixed",
+  "fixed": {
+    "prefix": "fixed",
     "body": [
       "@include fixed((t:0,l:0,w:0,h:0,z:1));"
     ],
     "description": "设置position: fixed"
   },
-  "@static": {
-    "prefix": "@static",
+  "static": {
+    "prefix": "static",
     "body": [
       "@include static((t:0,l:0,w:0,h:0,z:1));"
     ],
     "description": "设置position: fixed"
   },
-  "@t": {
-    "prefix": "@t",
+  "t": {
+    "prefix": "t",
     "body": [
       "@include t(0);"
     ],
     "description": "设置top值"
   },
-  "@b": {
-    "prefix": "@b",
+  "b": {
+    "prefix": "b",
     "body": [
       "@include b(0);"
     ],
     "description": "设置bottom值"
   },
-  "@r": {
-    "prefix": "@r",
+  "r": {
+    "prefix": "r",
     "body": [
       "@include r(0);"
     ],
     "description": "设置right值"
   },
-  "@tl": {
-    "prefix": "@tl",
+  "tl": {
+    "prefix": "tl",
     "body": [
       "@include tl(0,0);"
     ],
     "description": "设置top & left值"
   },
-  "@rl": {
-    "prefix": "@rl",
+  "rl": {
+    "prefix": "rl",
     "body": [
       "@include rl(0,0);"
     ],
     "description": "设置right & left值"
   },
-  "@bl": {
-    "prefix": "@bl",
+  "bl": {
+    "prefix": "bl",
     "body": [
       "@include bl(0,0);"
     ],
     "description": "设置bottom & left值"
   },
-  "@br": {
-    "prefix": "@br",
+  "br": {
+    "prefix": "br",
     "body": [
       "@include br(0,0);"
     ],
     "description": "设置bottom & right值"
   },
-  "@trbl": {
-    "prefix": "@trbl",
+  "trbl": {
+    "prefix": "trbl",
     "body": [
       "@include trbl(0,0,0,0);"
     ],
     "description": "定位top/left/bottom/right值"
   },
-  "@z": {
-    "prefix": "@z",
+  "z": {
+    "prefix": "z",
     "body": [
-      "@include z(999);"
+      "@include z(1);"
     ],
     "description": "设置z-index"
   },
-  "@z1": {
-    "prefix": "@z1",
+  "z1": {
+    "prefix": "z1",
     "body": [
       "@include z1;"
     ],
     "description": "设置z-index:10"
   },
-  "@z2": {
-    "prefix": "@z2",
+  "z2": {
+    "prefix": "z2",
     "body": [
       "@include z2;"
     ],
     "description": "设置z-index:20"
   },
-  "@z3": {
-    "prefix": "@z3",
+  "z3": {
+    "prefix": "z3",
     "body": [
       "@include z3;"
     ],
     "description": "设置z-index:30"
   },
-  "@z4": {
-    "prefix": "@z4",
+  "z4": {
+    "prefix": "z4",
     "body": [
       "@include z4;"
     ],
     "description": "设置z-index:40"
   },
-  "@z5": {
-    "prefix": "@z5",
+  "z5": {
+    "prefix": "z5",
     "body": [
       "@include z5;"
     ],
     "description": "设置z-index:50"
   },
-  "@z6": {
-    "prefix": "@z6",
+  "z6": {
+    "prefix": "z6",
     "body": [
       "@include z6;"
     ],
     "description": "设置z-index:60"
   },
-  "@z-max": {
-    "prefix": "@z-max",
+  "z-max": {
+    "prefix": "z-max",
     "body": [
       "@include z-max;"
     ],
     "description": "设置z-index:9999"
   },
-  "@f": {
-    "prefix": "@f",
+  "f": {
+    "prefix": "f",
     "body": [
       "@include f();"
     ],
     "description": "设置font || font-size"
   },
-  "@fz": {
-    "prefix": "@fz",
+  "fz": {
+    "prefix": "fz",
     "body": [
       "@include fz();"
     ],
     "description": "设置font-size"
   },
-  "@fa": {
-    "prefix": "@fa",
+  "fa": {
+    "prefix": "fa",
     "body": [
       "@include fa('Microsoft Yahei');"
     ],
     "description": "设置font-family"
   },
-  "@c": {
-    "prefix": "@c",
+  "c": {
+    "prefix": "c",
     "body": [
       "@include c(#);"
     ],
     "description": "设置color"
   },
-  "@fs": {
-    "prefix": "@fs",
+  "fs": {
+    "prefix": "fs",
     "body": [
       "@include fs();"
     ],
     "description": "设置font-style"
   },
-  "@fb": {
-    "prefix": "@fb",
+  "fb": {
+    "prefix": "fb",
     "body": [
       "@include fb();"
     ],
     "description": "设置font-weight"
   },
-  "@no-b": {
-    "prefix": "@no-b",
+  "no-b": {
+    "prefix": "no-b",
     "body": [
       "@include no-b;"
     ],
     "description": "设置font-weight: normal"
   },
-  "@ita": {
-    "prefix": "@ita",
+  "ita": {
+    "prefix": "ita",
     "body": [
       "@include ita;"
     ],
     "description": "设置font-style:italic"
   },
-  "@no-fs": {
-    "prefix": "@no-fs",
+  "no-fs": {
+    "prefix": "no-fs",
     "body": [
       "@include no-fs;"
     ],
     "description": "设置font-style:normal"
   },
-  "@lh": {
-    "prefix": "@lh",
+  "lh": {
+    "prefix": "lh",
     "body": [
       "@include lh();"
     ],
     "description": "设置line-height"
   },
-  "@normal-font": {
-    "prefix": "@normal-font",
+  "normal-font": {
+    "prefix": "normal-font",
     "body": [
       "@include normal-font;"
     ],
     "description": "设置正常字体样式"
   },
-  "@assist-font": {
-    "prefix": "@assist-font",
+  "assist-font": {
+    "prefix": "assist-font",
     "body": [
       "@include assist-font(#ccc,14);"
     ],
     "description": "设置辅助性文字(灰色)"
   },
-  "@transparent-text": {
-    "prefix": "@transparent-text",
+  "transparent-text": {
+    "prefix": "transparent-text",
     "body": [
       "@include transparent-text;"
     ],
     "description": "设置文字透明"
   },
-  "@ls": {
-    "prefix": "@ls",
+  "ls": {
+    "prefix": "ls",
     "body": [
       "@include ls();"
     ],
     "description": "设置letter-spacing"
   },
-  "@bd": {
-    "prefix": "@bd",
+  "bd": {
+    "prefix": "bd",
     "body": [
       "@include bd(1 solid #);"
     ],
     "description": "设置border"
   },
-  "@bdt": {
-    "prefix": "@bdt",
+  "bdt": {
+    "prefix": "bdt",
     "body": [
       "@include bdt(1 solid #);"
     ],
     "description": "设置border-top"
   },
-  "@bdr": {
-    "prefix": "@bdr",
+  "bdr": {
+    "prefix": "bdr",
     "body": [
       "@include bdr(1 solid #);"
     ],
     "description": "设置border-right"
   },
-  "@bdb": {
-    "prefix": "@bdb",
+  "bdb": {
+    "prefix": "bdb",
     "body": [
       "@include bdb(1 solid #);"
     ],
     "description": "设置border-bottom"
   },
-  "@bdl": {
-    "prefix": "@bdl",
+  "bdl": {
+    "prefix": "bdl",
     "body": [
       "@include bdl(1 solid #);"
     ],
     "description": "设置border-left"
   },
-  "@bdtb": {
-    "prefix": "@bdtb",
+  "bdtb": {
+    "prefix": "bdtb",
     "body": [
       "@include bdtb(1 solid #);"
     ],
     "description": "设置border-top & border-bottom"
   },
-  "@bdrl": {
-    "prefix": "@bdrl",
+  "bdrl": {
+    "prefix": "bdrl",
     "body": [
       "@include bdrl(1 solid #);"
     ],
     "description": "设置border-right & border-left"
   },
-  "@bdc": {
-    "prefix": "@bdc",
+  "bdc": {
+    "prefix": "bdc",
     "body": [
       "@include bdc(#);"
     ],
     "description": "设置border-color"
   },
-  "@bdi": {
-    "prefix": "@bdi",
+  "bdi": {
+    "prefix": "bdi",
     "body": [
       "@include bdi(url('#{$BG_URL}img.png') 30 30 round);"
     ],
     "description": "设置border-image"
   },
-  "@no-bd": {
-    "prefix": "@no-bd",
+  "no-bd": {
+    "prefix": "no-bd",
     "body": [
       "@include no-bd;"
     ],
     "description": "取消边框border:none"
   },
-  "@no-bdt": {
-    "prefix": "@no-bdt",
+  "no-bdt": {
+    "prefix": "no-bdt",
     "body": [
       "@include no-bdt;"
     ],
     "description": "取消上边框border-top:none"
   },
-  "@no-bdr": {
-    "prefix": "@no-bdr",
+  "no-bdr": {
+    "prefix": "no-bdr",
     "body": [
       "@include no-bdr;"
     ],
     "description": "取消右边框border-right:none"
   },
-  "@no-bdb": {
-    "prefix": "@no-bdb",
+  "no-bdb": {
+    "prefix": "no-bdb",
     "body": [
       "@include no-bdb;"
     ],
     "description": "取消下边框border-bottom:none"
   },
-  "@no-bdl": {
-    "prefix": "@no-bdl",
+  "no-bdl": {
+    "prefix": "no-bdl",
     "body": [
       "@include no-bdl;"
     ],
     "description": "取消左边框border-left:none"
   },
-  "@no-bdtb": {
-    "prefix": "@no-bdtb",
+  "no-bdtb": {
+    "prefix": "no-bdtb",
     "body": [
       "@include no-bdtb;"
     ],
     "description": "取消上边框 & 下边框 border-top:none & border-bottom:none"
   },
-  "@no-bdrl": {
-    "prefix": "@no-bdrl",
+  "no-bdrl": {
+    "prefix": "no-bdrl",
     "body": [
       "@include no-bdrl;"
     ],
     "description": "取消右边框 & 左边框 border-right:none & border-left:none"
   },
-  "@oln": {
-    "prefix": "@oln",
+  "oln": {
+    "prefix": "oln",
     "body": [
       "@include oln(1 solid #);"
     ],
     "description": "设置outline"
   },
-  "@oln-c": {
-    "prefix": "@oln-c",
+  "oln-c": {
+    "prefix": "oln-c",
     "body": [
       "@include oln-c(#);"
     ],
     "description": "设置outline-color"
   },
-  "@oln-r": {
-    "prefix": "@oln-r",
+  "oln-r": {
+    "prefix": "oln-r",
     "body": [
       "@include oln-r(5);"
     ],
     "description": "设置outline-color"
   },
-  "@oln-s": {
-    "prefix": "@oln-s",
+  "oln-s": {
+    "prefix": "oln-s",
     "body": [
       "@include oln-s(solid);"
     ],
     "description": "设置outline-style"
   },
-  "@oln-w": {
-    "prefix": "@oln-w",
+  "oln-w": {
+    "prefix": "oln-w",
     "body": [
       "@include oln-w(1);"
     ],
     "description": "设置outline-width"
   },
-  "@oln-o": {
-    "prefix": "@oln-o",
+  "oln-o": {
+    "prefix": "oln-o",
     "body": [
       "@include oln-o(2);"
     ],
     "description": "设置outline-offset"
   },
-  "@cut-line": {
-    "prefix": "@cut-line",
+  "cut-line": {
+    "prefix": "cut-line",
     "body": [
       "@include cut-line(0 10,#ccc,12);"
     ],
     "description": "分割线 |"
   },
-  "@cut-line2": {
-    "prefix": "@cut-line2",
+  "cut-line2": {
+    "prefix": "cut-line2",
     "body": [
       "@include cut-line2(0 10,#ccc,12);"
     ],
     "description": "分割线 / (面包屑导航)"
   },
-  "@mar": {
-    "prefix": "@mar",
+  "mar": {
+    "prefix": "mar",
     "body": [
       "@include mar(0 0 0 0);"
     ],
     "description": "设置margin"
   },
-  "@pad": {
-    "prefix": "@pad",
+  "pad": {
+    "prefix": "pad",
     "body": [
       "@include pad(0 0 0 0);"
     ],
     "description": "设置padding"
   },
-  "@mt": {
-    "prefix": "@mt",
+  "mt": {
+    "prefix": "mt",
     "body": [
       "@include mt();"
     ],
     "description": "设置margin-top"
   },
-  "@mr": {
-    "prefix": "@mr",
+  "mr": {
+    "prefix": "mr",
     "body": [
       "@include mr();"
     ],
     "description": "设置margin-right"
   },
-  "@mb": {
-    "prefix": "@mb",
+  "mb": {
+    "prefix": "mb",
     "body": [
       "@include mb();"
     ],
     "description": "设置margin-bottom"
   },
-  "@ml": {
-    "prefix": "@ml",
+  "ml": {
+    "prefix": "ml",
     "body": [
       "@include ml();"
     ],
     "description": "设置margin-left"
   },
-  "@pt": {
-    "prefix": "@pt",
+  "pt": {
+    "prefix": "pt",
     "body": [
       "@include pt();"
     ],
     "description": "设置padding-top"
   },
-  "@pr": {
-    "prefix": "@pr",
+  "pr": {
+    "prefix": "pr",
     "body": [
       "@include pr();"
     ],
     "description": "设置padding-right"
   },
-  "@pb": {
-    "prefix": "@pb",
+  "pb": {
+    "prefix": "pb",
     "body": [
       "@include pb();"
     ],
     "description": "设置padding-bottom"
   },
-  "@pl": {
-    "prefix": "@pl",
+  "pl": {
+    "prefix": "pl",
     "body": [
       "@include pl();"
     ],
     "description": "设置padding-left"
   },
-  "@mtb": {
-    "prefix": "@mtb",
+  "mtb": {
+    "prefix": "mtb",
     "body": [
       "@include mtb();"
     ],
     "description": "设置margin-top && margin-bottom"
   },
-  "@mlr": {
-    "prefix": "@mlr",
+  "mlr": {
+    "prefix": "mlr",
     "body": [
       "@include mlr();"
     ],
     "description": "设置margin-left && margin-right"
   },
-  "@ptb": {
-    "prefix": "@ptb",
+  "ptb": {
+    "prefix": "ptb",
     "body": [
       "@include ptb();"
     ],
     "description": "设置padding-top && padding-bottom"
   },
-  "@plr": {
-    "prefix": "@plr",
+  "plr": {
+    "prefix": "plr",
     "body": [
       "@include plr();"
     ],
     "description": "设置padding-left && padding-right"
   },
-  "@base": {
-    "prefix": "@base",
+  "base": {
+    "prefix": "base",
     "body": [
       "@include base(1000);"
     ],
     "description": "设置项目初始化"
   },
-  "@label": {
-    "prefix": "@label",
+  "label": {
+    "prefix": "label",
     "body": [
       "@include label();"
     ],
     "description": "清除标签默认属性"
   },
-  "@pc-label": {
-    "prefix": "@pc-label",
+  "pc-label": {
+    "prefix": "pc-label",
     "body": [
       "@include pc-label;"
     ],
     "description": "清除pc标签默认属性"
   },
-  "@mobile-label": {
-    "prefix": "@mobile-label",
+  "mobile-label": {
+    "prefix": "mobile-label",
     "body": [
       "@include mobile-label;"
     ],
     "description": "清除pc标签默认属性"
   },
-  "@wh": {
-    "prefix": "@wh",
+  "wh": {
+    "prefix": "wh",
     "body": [
       "@include wh();"
     ],
     "description": "设置width & height"
   },
-  "@whl": {
-    "prefix": "@whl",
+  "whl": {
+    "prefix": "whl",
     "body": [
       "@include whl();"
     ],
     "description": "设置width & height & line-height"
   },
-  "@whfl": {
-    "prefix": "@whfl",
+  "whfl": {
+    "prefix": "whfl",
     "body": [
       "@include whfl();"
     ],
     "description": "设置width & height & font-size & line-height"
   },
-  "@whflc": {
-    "prefix": "@whflc",
+  "whflc": {
+    "prefix": "whflc",
     "body": [
       "@include whflc();"
     ],
     "description": "设置width & height & font-size & line-height & color"
   },
-  "@whflcb": {
-    "prefix": "@whflcb",
+  "whflcb": {
+    "prefix": "whflcb",
     "body": [
       "@include whflcb();"
     ],
     "description": "设置width & height & font-size & line-height & color & font-weight"
   },
-  "@hl": {
-    "prefix": "@hl",
+  "hl": {
+    "prefix": "hl",
     "body": [
       "@include hl();"
     ],
     "description": "设置height & line-height"
   },
-  "@hflc": {
-    "prefix": "@hflc",
+  "hflc": {
+    "prefix": "hflc",
     "body": [
       "@include hflc();"
     ],
     "description": "设置height & font-size & line-height & color"
   },
-  "@hflcb": {
-    "prefix": "@hflcb",
+  "hflcb": {
+    "prefix": "hflcb",
     "body": [
       "@include hflcb();"
     ],
     "description": "设置height & font-size & line-height & color && font-weight"
   },
-  "@wl": {
-    "prefix": "@wl",
+  "wl": {
+    "prefix": "wl",
     "body": [
       "@include wl();"
     ],
     "description": "设置width & line-height"
   },
-  "@flh": {
-    "prefix": "@flh",
+  "flh": {
+    "prefix": "flh",
     "body": [
       "@include flh();"
     ],
     "description": "设置font-szie & line-height"
   },
-  "@fc": {
-    "prefix": "@fc",
+  "fc": {
+    "prefix": "fc",
     "body": [
       "@include fc();"
     ],
     "description": "设置font-size & color"
   },
-  "@flc": {
-    "prefix": "@flc",
+  "flc": {
+    "prefix": "flc",
     "body": [
       "@include flc();"
     ],
     "description": "设置font-size & line-height & color"
   },
-  "@fcb": {
-    "prefix": "@fcb",
+  "fcb": {
+    "prefix": "fcb",
     "body": [
       "@include fcb();"
     ],
     "description": "设置font-size & color & font-weight"
   },
-  "@flcb": {
-    "prefix": "@flcb",
+  "flcb": {
+    "prefix": "flcb",
     "body": [
       "@include flcb();"
     ],
     "description": "设置font-size & line-height & color & font-weight"
   },
-  "@faflc": {
-    "prefix": "@faflc",
+  "faflc": {
+    "prefix": "faflc",
     "body": [
       "@include faflc();"
     ],
     "description": "设置family & font-size & line-height & color & font"
   },
-  "@mawh": {
-    "prefix": "@mawh",
+  "mawh": {
+    "prefix": "mawh",
     "body": [
       "@include mawh();"
     ],
     "description": "设置max-width & max-height"
   },
-  "@miwh": {
-    "prefix": "@miwh",
+  "miwh": {
+    "prefix": "miwh",
     "body": [
       "@include miwh();"
     ],
     "description": "设置min-width & min-height"
   },
-  "@mmw": {
-    "prefix": "@mmw",
+  "mmw": {
+    "prefix": "mmw",
     "body": [
       "@include mmw();"
     ],
     "description": "设置min-width & max-width"
   },
-  "@vit": {
-    "prefix": "@vit",
+  "vit": {
+    "prefix": "vit",
     "body": [
       "@include vit;"
     ],
     "description": "设置vertical-align:top"
   },
-  "@vic": {
-    "prefix": "@vic",
+  "vic": {
+    "prefix": "vic",
     "body": [
       "@include vic;"
     ],
     "description": "设置vertical-align:middle"
   },
-  "@vib": {
-    "prefix": "@vib",
+  "vib": {
+    "prefix": "vib",
     "body": [
       "@include vib;"
     ],
     "description": "设置vertical-align:bottom"
   },
-  "@va": {
-    "prefix": "@va",
+  "va": {
+    "prefix": "va",
     "body": [
       "@include va(top);"
     ],
     "description": "设置vertical-align"
   },
-  "@over": {
-    "prefix": "@over",
+  "over": {
+    "prefix": "over",
     "body": [
-      "@include over;"
+      "@include over();"
     ],
     "description": "设置overflow:hidden"
   },
-  "@ofv": {
-    "prefix": "@ofv",
+  "ofv": {
+    "prefix": "ofv",
     "body": [
       "@include ofv;"
     ],
     "description": "设置overflow:visible !important"
   },
-  "@over-x": {
-    "prefix": "@over-x",
+  "over-x": {
+    "prefix": "over-x",
     "body": [
-      "@include over-x();"
+      "@include over-x(auto);"
     ],
     "description": "x轴截断"
   },
-  "@over-y": {
-    "prefix": "@over-y",
+  "over-y": {
+    "prefix": "over-y",
     "body": [
-      "@include over-y();"
+      "@include over-y(auto);"
     ],
     "description": "y轴截断"
   },
-  "@cur": {
-    "prefix": "@cur",
+  "cur": {
+    "prefix": "cur",
     "body": [
       "@include cur"
     ],
     "description": "鼠标手"
   },
-  "@def": {
-    "prefix": "@def",
+  "def": {
+    "prefix": "def",
     "body": [
       "@include def"
     ],
     "description": "默认鼠标"
   },
-  "@cursor": {
-    "prefix": "@cursor",
+  "cursor": {
+    "prefix": "cursor",
     "body": [
       "@include cursor(pointer)"
     ],
     "description": "设置鼠标手"
   },
-  "@opa": {
-    "prefix": "@opa",
+  "opa": {
+    "prefix": "opa",
     "body": [
       "@include opa(0.8);"
     ],
     "description": "设置opacity"
   },
-  "@no-resize": {
-    "prefix": "@no-resize",
+  "no-resize": {
+    "prefix": "no-resize",
     "body": [
       "@include no-resize;"
     ],
     "description": "禁止textarea拖动大小resize: none"
   },
-  "@first-letter": {
-    "prefix": "@first-letter",
+  "first-letter": {
+    "prefix": "first-letter",
     "body": [
       "@include first-letter(2em);"
     ],
     "description": "首字下沉"
   },
-  "@first-line": {
-    "prefix": "@first-line",
+  "first-line": {
+    "prefix": "first-line",
     "body": [
       "@include first-line(#);"
     ],
     "description": "特殊标记段落第一行"
   },
-  "@round": {
-    "prefix": "@round",
+  "round": {
+    "prefix": "round",
     "body": [
       "@include round(30);"
     ],
     "description": "设置圆形"
   },
-  "@roundc": {
-    "prefix": "@roundc",
+  "roundc": {
+    "prefix": "roundc",
     "body": [
       "@include roundc(0,#);"
     ],
     "description": "设置圆形 & 背景色"
   },
-  "@triangle-up": {
-    "prefix": "@triangle-up",
+  "triangle-up": {
+    "prefix": "triangle-up",
     "body": [
       "@include triangle-up(10,10,#);"
     ],
     "description": "上三角圆形"
   },
-  "@triangle-right": {
-    "prefix": "@triangle-right",
+  "triangle-right": {
+    "prefix": "triangle-right",
     "body": [
       "@include triangle-right(10,10,#);"
     ],
     "description": "右三角圆形"
   },
-  "@triangle-bottom": {
-    "prefix": "@triangle-bottom",
+  "triangle-bottom": {
+    "prefix": "triangle-bottom",
     "body": [
       "@include triangle-bottom(10,10,#);"
     ],
     "description": "下三角圆形"
   },
-  "@triangle-left": {
-    "prefix": "@triangle-left",
+  "triangle-left": {
+    "prefix": "triangle-left",
     "body": [
       "@include triangle-left(10,10,#);"
     ],
     "description": "左三角圆形"
   },
-  "@triangle-topleft": {
-    "prefix": "@triangle-topleft",
+  "triangle-topleft": {
+    "prefix": "triangle-topleft",
     "body": [
       "@include triangle-topleft(10,#);"
     ],
     "description": "左上三角圆形"
   },
-  "@triangle-topright": {
-    "prefix": "@triangle-topright",
+  "triangle-topright": {
+    "prefix": "triangle-topright",
     "body": [
       "@include triangle-topright(10,#);"
     ],
     "description": "右上三角圆形"
   },
-  "@triangle-bottomleft": {
-    "prefix": "@triangle-bottomleft",
+  "triangle-bottomleft": {
+    "prefix": "triangle-bottomleft",
     "body": [
       "@include triangle-bottomleft(10,#);"
     ],
     "description": "左下三角圆形"
   },
-  "@triangle-bottomright": {
-    "prefix": "@triangle-bottomright",
+  "triangle-bottomright": {
+    "prefix": "triangle-bottomright",
     "body": [
       "@include triangle-bottomright(10,#);"
     ],
