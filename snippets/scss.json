@@ -6,6 +6,13 @@
     ],
     "description": "引入_base_mixins"
   },
+  "@extend": {
+    "prefix": "@extend",
+    "body": [
+      "@extend ;"
+    ],
+    "description": "继承 @extend"
+  },
   "$BG_URL": {
     "prefix": "$BG_URL",
     "body": [
@@ -88,8 +95,8 @@
     "body": [
       " @include keyframes(animation-name) {",
       "\t  0% {",
-      "\t  }     ",                                                           
-      "\t  100% {       ",
+      "\t  }     ",       
+      "\t  100% { ",
       "\t  }",
       "\t}"
     ],

@@ -1,7 +1,6 @@
 # mixins-snippets
 [![](https://vsmarketplacebadge.apphb.com/version-short/uustoboy.mixins-snippets.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=uustoboy.mixins-snippets)
 [![](https://vsmarketplacebadge.apphb.com/installs-short/uustoboy.mixins-snippets.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=uustoboy.mixins-snippets)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE) 
 [![GitHub stars](https://img.shields.io/github/stars/uustoboy/mixins-snippets.svg?style=social&label=Star%20on%20Github)](https://github.com/uustoboy/mixins-snippets)
 
 # 为 [base_mixins](https://github.com/uustoboy/base_mixins) 做的 vs code 提示插件
@@ -10,11 +9,11 @@
 <table>
   <tbody>
     <tr>
-      <td>@wh</td>
+      <td>wh</td>
       <td>@include wh()</td>
     </tr>
     <tr>
-      <td>@flc</td>
+      <td>flc</td>
       <td>@include flc()</td>
     </tr>
     <tr>
