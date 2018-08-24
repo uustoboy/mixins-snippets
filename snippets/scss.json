@@ -37,56 +37,56 @@
   "$prefixWebkit": {
     "prefix": "$prefixWebkit",
     "body": [
-      "$$prefixWebkit : true"
+      "$$prefixWebkit : true;"
     ],
     "description": "$prefixWebkit 开启谷歌前缀:webkit前缀"
   },
   "$prefixMozilla": {
     "prefix": "$prefixMozilla",
     "body": [
-      "$$prefixMozilla : true"
+      "$$prefixMozilla : true;"
     ],
     "description": "$prefixMozilla 开启火狐前缀:moz前缀"
   },
   "$prefixMicrosoft": {
     "prefix": "$prefixMicrosoft",
     "body": [
-      "$$prefixMicrosoft : true"
+      "$$prefixMicrosoft : true;"
     ],
     "description": "$prefixMicrosoft 开启IE前缀:ms前缀"
   },
   "$prefixOpera": {
     "prefix": "$prefixOpera",
     "body": [
-      "$$prefixOpera : true"
+      "$$prefixOpera : true;"
     ],
     "description": "$prefixOpera 开启opera前缀:o前缀"
   },
   "$prefixNo": {
     "prefix": "$prefixNo",
     "body": [
-      "$$prefixNo : true"
+      "$$prefixNo : true;"
     ],
     "description": "$prefixNo 默认前缀关闭"
   },
   "$global-unit": {
     "prefix": "$global-unit",
     "body": [
-      "$$global-unit : px"
+      "$$global-unit : px;"
     ],
     "description": "$global-unit 全局默认补全单位"
   },
   "$designWidth": {
     "prefix": "$designWidth",
     "body": [
-      "$$designWidth : 640"
+      "$$designWidth : 640;"
     ],
     "description": "$designWidth 移动转rem默认尺寸大小"
   },
   "$wxDesignWidth ": {
     "prefix": "$wxDesignWidth",
     "body": [
-      "$$wxDesignWidth  : 750"
+      "$$wxDesignWidth  : 750;"
     ],
     "description": "$wxDesignWidth 微信小程序转rpx默认尺寸大小"
   },
