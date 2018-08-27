@@ -168,7 +168,7 @@
   "bg": {
     "prefix": "bg",
     "body": [
-      "@include bg(#,'#{$BG_URL}img.jpg',$$position:0 0);"
+      "@include bg(#,'#{$$BG_URL}img.jpg',$$position:0 0);"
     ],
     "description": "设置background"
   },
@@ -182,7 +182,7 @@
   "bgi": {
     "prefix": "bgi",
     "body": [
-      "@include bgi('#{$BG_URL}img.jpg',$$position:0 0);"
+      "@include bgi('#{$$BG_URL}img.jpg',$$position:0 0);"
     ],
     "description": "设置background-image"
   },
@@ -203,7 +203,7 @@
   "bgiz": {
     "prefix": "bgiz",
     "body": [
-      "@include bgiz('#{$BG_URL}img.jpg',$$position:0 0);"
+      "@include bgiz('#{$$BG_URL}img.jpg',$$position:0 0);"
     ],
     "description": "设置background-image && background-size"
   },
@@ -245,14 +245,14 @@
   "bg-image": {
     "prefix": "bg-image",
     "body": [
-      "@include bg-image('#{$BG_URL}img.png');"
+      "@include bg-image('#{$$BG_URL}img.png');"
     ],
     "description": " 设置@2x/@3x 背景图片"
   },
   "fullscreen-bg": {
     "prefix": "fullscreen-bg",
     "body": [
-      "@include fullscreen-bg('#{$BG_URL}img.png');"
+      "@include fullscreen-bg('#{$$BG_URL}img.png');"
     ],
     "description": "设置全屏大图背景"
   },
@@ -921,15 +921,15 @@
     "prefix": "scrollbar",
     "body": [
       "@include scrollbar(scrollbar-track){",
-      "\t #{$browser}box-shadow: inset 0 0 6px rgba(0,0,0,0.3);",
+      "\t #{$$browser}box-shadow: inset 0 0 6px rgba(0,0,0,0.3);",
       "\t background-color: #F5F5F5;",
       "\t};",
       "\t@include scrollbar(scrollbar){",
       "\t  width: 12px;",
       "\t};",
       "\t@include scrollbar(scrollbar-thumb){",
-      "\t #{$browser}border-radius: 10px;",
-      "\t #{$browser}box-shadow: inset 0 0 6px rgba(0,0,0,.3);",
+      "\t #{$$browser}border-radius: 10px;",
+      "\t #{$$browser}box-shadow: inset 0 0 6px rgba(0,0,0,.3);",
       "\t background-color: #fbd0c9;",
       "\t};"
     ],
@@ -994,7 +994,7 @@
   "replace-text": {
     "prefix": "replace-text",
     "body": [
-      "@include replace-text('#{$BG_URL}img.jpg',0 0);"
+      "@include replace-text('#{$$BG_URL}img.jpg',0 0);"
     ],
     "description": "设置ico图标"
   },
@@ -1449,7 +1449,7 @@
   "bdi": {
     "prefix": "bdi",
     "body": [
-      "@include bdi(url('#{$BG_URL}img.png') 30 30 round);"
+      "@include bdi(url('#{$$BG_URL}img.png') 0 0 round);"
     ],
     "description": "设置border-image"
   },
@@ -1662,6 +1662,13 @@
       "@include base(1000);"
     ],
     "description": "设置项目初始化"
+  },
+  "min-base": {
+    "prefix": "min-base",
+    "body": [
+      "@include min-base(1000);"
+    ],
+    "description": "设置项目迷你初始化"
   },
   "label": {
     "prefix": "label",
