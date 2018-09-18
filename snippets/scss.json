@@ -228,12 +228,159 @@
     ],
     "description": "设置background-position"
   },
+  "bga": {
+    "prefix": "bga",
+    "body": [
+      "@include bga(${1:});"
+    ],
+    "description": "设置background-attachment"
+  },
   "bgc": {
     "prefix": "bgc",
     "body": [
-      "@include bgc(${1:#});"
+      "@include bgc(${1:});"
     ],
     "description": "设置background-color"
+  },
+  "bg-l-g": {
+    "prefix": "bg-l-g",
+    "body": [
+      "@include bg-l-g(${1:});"
+    ],
+    "description": "设置设置线性渐变"
+  },
+  "bg-r-l-g": {
+    "prefix": "bg-r-l-g",
+    "body": [
+      "@include bg-r-l-g(${1:});"
+    ],
+    "description": "设置重复线性渐变"
+  },
+  "bg-r-g": {
+    "prefix": "bg-r-g",
+    "body": [
+      "@include bg-r-g(${1:});"
+    ],
+    "description": "设置径向渐变"
+  },
+  "bg-r-r-g": {
+    "prefix": "bg-r-l-g",
+    "body": [
+      "@include bg-r-r-g(${1:});"
+    ],
+    "description": "设置重复径向渐变"
+  },
+  "mix-bm": {
+    "prefix": "mix-bm",
+    "body": [
+      "@include mix-bm(${1:});"
+    ],
+    "description": "设置mix-blend-mode"
+  },
+  "bg-bm": {
+    "prefix": "bg-bm",
+    "body": [
+      "@include bg-bm(${1:});"
+    ],
+    "description": "设置background-blend-mode"
+  },
+  "iso": {
+    "prefix": "iso",
+    "body": [
+      "@include iso(${1:});"
+    ],
+    "description": "设置isolation"
+  },
+  "obj-f": {
+    "prefix": "obj-f",
+    "body": [
+      "@include obj-f(${1:});"
+    ],
+    "description": "设置object-fit"
+  },
+  "obj-p": {
+    "prefix": "obj-p",
+    "body": [
+      "@include obj-p(${1:});"
+    ],
+    "description": "设置object-position"
+  },
+  "obj-fp": {
+    "prefix": "obj-fp",
+    "body": [
+      "@include obj-fp(${1:});"
+    ],
+    "description": "组合object-fit && object-position"
+  },
+  "bd-flt": {
+    "prefix": "bd-flt",
+    "body": [
+      "@include bd-flt(${1:});"
+    ],
+    "description": "设置backdrop-filter"
+  },
+  "mask-a": {
+    "prefix": "mask-a",
+    "body": [
+      "@include mask-a(${1:});"
+    ],
+    "description": "设置mask-attachment"
+  },
+  "mask-bi": {
+    "prefix": "mask-bi",
+    "body": [
+      "@include mask-bi(${1:});"
+    ],
+    "description": "设置mask-box-image"
+  },
+  "mask-c": {
+    "prefix": "mask-c",
+    "body": [
+      "@include mask-c(${1:});"
+    ],
+    "description": "设置mask-clip"
+  },
+  "mask-co": {
+    "prefix": "mask-co",
+    "body": [
+      "@include mask-co(${1:});"
+    ],
+    "description": "设置mask-composite"
+  },
+  "mask-i": {
+    "prefix": "mask-i",
+    "body": [
+      "@include mask-i(${1:});"
+    ],
+    "description": "设置mask-image"
+  },
+  "mask-o": {
+    "prefix": "mask-o",
+    "body": [
+      "@include mask-o(${1:});"
+    ],
+    "description": "设置mask-origin"
+  },
+  "mask-p": {
+    "prefix": "mask-p",
+    "body": [
+      "@include mask-p(${1:});"
+    ],
+    "description": "设置mask-position"
+  },
+  "mask-r": {
+    "prefix": "mask-r",
+    "body": [
+      "@include mask-r(${1:});"
+    ],
+    "description": "设置mask-repeat"
+  },
+  "mask-s": {
+    "prefix": "mask-s",
+    "body": [
+      "@include mask-s(${1:});"
+    ],
+    "description": "设置mask-size"
   },
   "max-img": {
     "prefix": "max-img",
@@ -290,6 +437,27 @@
       "\t                    '.sprite-',),2,3,163,$$dir:y);"
     ],
     "description": "css sprite:矩阵图形(默认X轴开始)"
+  },
+  "b": {
+    "prefix": "b",
+    "body": [
+      "@include b(${1:});"
+    ],
+    "description": "设置BEM的B"
+  },
+  "e": {
+    "prefix": "e",
+    "body": [
+      "@include e(${1:});"
+    ],
+    "description": "设置BEM的E"
+  },
+  "m": {
+    "prefix": "m",
+    "body": [
+      "@include b(${1:});"
+    ],
+    "description": "设置BEM的M"
   },
   "block": {
     "prefix": "block",
@@ -1162,7 +1330,7 @@
   "rel": {
     "prefix": "rel",
     "body": [
-      "@include rel((t:${1:0},l:0,w:0,h:0,z:1));"
+      "@include rel();"
     ],
     "description": "设置position: relative"
   },
@@ -1876,7 +2044,7 @@
   "cur": {
     "prefix": "cur",
     "body": [
-      "@include cur;${1:}"
+      "@include cur(${1:});"
     ],
     "description": "鼠标手"
   },
@@ -1887,13 +2055,6 @@
     ],
     "description": "默认鼠标"
   },
-  "cursor": {
-    "prefix": "cursor",
-    "body": [
-      "@include cursor(${1:pointer});"
-    ],
-    "description": "设置鼠标手"
-  },
   "opa": {
     "prefix": "opa",
     "body": [
@@ -1901,10 +2062,10 @@
     ],
     "description": "设置opacity"
   },
-  "no-resize": {
-    "prefix": "no-resize",
+  "no-rz": {
+    "prefix": "no-rz",
     "body": [
-      "@include no-resize;${1:}"
+      "@include no-rz;${1:}"
     ],
     "description": "禁止textarea拖动大小resize: none"
   },
