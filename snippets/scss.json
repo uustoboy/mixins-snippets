@@ -2083,6 +2083,13 @@
     ],
     "description": "特殊标记段落第一行"
   },
+  "hack": {
+    "prefix": "hack",
+    "body": [
+      "@include hack(${1:#},);"
+    ],
+    "description": "css hack"
+  },
   "round": {
     "prefix": "round",
     "body": [
