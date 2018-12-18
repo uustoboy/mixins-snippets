@@ -2086,7 +2086,7 @@
   "hack": {
     "prefix": "hack",
     "body": [
-      "@include hack(${1:#},);"
+      "@include hack(${1:},);"
     ],
     "description": "css hack"
   },
@@ -2163,162 +2163,162 @@
   "c-link": {
     "prefix": "c-link",
     "body": [
-      "$c-link${1:}"
+      "$$c-link${1:}"
     ],
     "description": "link颜色"
   },
   "c-white": {
     "prefix": "c-white",
     "body": [
-      "$c-white${1:}"
+      "$$c-white${1:}"
     ],
     "description": "white颜色"
   },
   "c-black": {
     "prefix": "c-black",
     "body": [
-      "$c-black${1:}"
+      "$$c-black${1:}"
     ],
     "description": "black颜色"
   },
   "c-gray": {
     "prefix": "c-gray",
     "body": [
-      "$c-gray${1:}"
+      "$$c-gray${1:}"
     ],
     "description": "gray颜色"
   },
   "c-dark": {
     "prefix": "c-dark",
     "body": [
-      "$c-dark${1:}"
+      "$$c-dark${1:}"
     ],
     "description": "dark颜色"
   },
   "c-disabled": {
     "prefix": "c-disabled",
     "body": [
-      "$c-disabled${1:}"
+      "$$c-disabled${1:}"
     ],
     "description": "disabled颜色"
   },
   "c-blue": {
     "prefix": "c-blue",
     "body": [
-      "$c-blue${1:}"
+      "$$c-blue${1:}"
     ],
     "description": "blue颜色"
   },
   "c-green": {
     "prefix": "c-green",
     "body": [
-      "$c-green${1:}"
+      "$$c-green${1:}"
     ],
     "description": "green颜色"
   },
   "c-yellow": {
     "prefix": "c-yellow",
     "body": [
-      "$c-yellow${1:}"
+      "$$c-yellow${1:}"
     ],
     "description": "yellow颜色"
   },
   "c-orange": {
     "prefix": "c-orange",
     "body": [
-      "$c-orange${1:}"
+      "$$c-orange${1:}"
     ],
     "description": "orange颜色"
   },
   "c-red": {
     "prefix": "c-red",
     "body": [
-      "$c-red${1:}"
+      "$$c-red${1:}"
     ],
     "description": "red颜色"
   },
   "c-pink": {
     "prefix": "c-pink",
     "body": [
-      "$c-pink${1:}"
+      "$$c-pink${1:}"
     ],
     "description": "pink颜色"
   },
   "c-grape": {
     "prefix": "c-grape",
     "body": [
-      "$c-grape${1:}"
+      "$$c-grape${1:}"
     ],
     "description": "grape颜色"
   },
   "c-violet": {
     "prefix": "c-violet",
     "body": [
-      "$c-violet${1:}"
+      "$$c-violet${1:}"
     ],
     "description": "violet颜色"
   },
   "c-indigo": {
     "prefix": "c-indigo",
     "body": [
-      "$c-indigo${1:}"
+      "$$c-indigo${1:}"
     ],
     "description": "indigo颜色"
   },
   "c-cyan": {
     "prefix": "c-cyan",
     "body": [
-      "$c-cyan${1:}"
+      "$$c-cyan${1:}"
     ],
     "description": "cyan颜色"
   },
   "c-teal": {
     "prefix": "c-teal",
     "body": [
-      "$c-teal${1:}"
+      "$$c-teal${1:}"
     ],
     "description": "teal颜色"
   },
   "c-lime": {
     "prefix": "c-lime",
     "body": [
-      "$c-lime${1:}"
+      "$$c-lime${1:}"
     ],
     "description": "lime颜色"
   },
   "f-value": {
     "prefix": "f-value",
     "body": [
-      "$f-value${1:}"
+      "$$f-value${1:}"
     ],
     "description": "font-size值"
   },
   "lh-value": {
     "prefix": "lh-value",
     "body": [
-      "$lh-value${1:}"
+      "$$lh-value${1:}"
     ],
     "description": "line-height值"
   },
   "bdrs-value": {
     "prefix": "bdrs-value",
     "body": [
-      "$bdrs-value${1:}"
+      "$$bdrs-value${1:}"
     ],
     "description": "bdrs-value值"
   },
   "btn": {
     "prefix": "btn",
     "body": [
-      "btn:((",
-      "\t  d: ",
-      "\t  w: ",
-      "\t  h: ",
-      "\t  f: ",
-      "\t  l: ",
-      "\t  c: ",
-      "\t  bg:",
-      "\t  hbg:",
+      "@include btn((",
+      "\t  d: ,",
+      "\t  w: ,",
+      "\t  h: ,",
+      "\t  f: ,",
+      "\t  l: ,",
+      "\t  c: ,",
+      "\t  bg: ,",
+      "\t  hbg: ",
       "\t));"
     ],
     "description": "btn按钮"
@@ -2326,12 +2326,12 @@
   "btn-block": {
     "prefix": "btn-block",
     "body": [
-      "btn-block:((",
-      "\t  h: ",
-      "\t  f: ",
-      "\t  l: ",
-      "\t  c: ",
-      "\t  bg:",
+      "@include btn-block((",
+      "\t  h: ,",
+      "\t  f: ,",
+      "\t  l: ,",
+      "\t  c: ,",
+      "\t  bg: ,",
       "\t  hbg:",
       "\t));"
     ],
@@ -2340,13 +2340,13 @@
   "btn-inblock": {
     "prefix": "btn-inblock",
     "body": [
-      "btn-inblock:((",
-      "\t  w: ",
-      "\t  h: ",
-      "\t  f: ",
-      "\t  l: ",
-      "\t  c: ",
-      "\t  bg:",
+      "@include btn-inblock((",
+      "\t  w: ,",
+      "\t  h: ,",
+      "\t  f: ,",
+      "\t  l: ,",
+      "\t  c: ,",
+      "\t  bg: ,",
       "\t  hbg:",
       "\t));"
     ],
@@ -2355,13 +2355,13 @@
   "input": {
     "prefix": "input",
     "body": [
-      "input:((",
-      "\t  d: ",
-      "\t  w: ",
-      "\t  h: ",
-      "\t  f: ",
-      "\t  l: ",
-      "\t  c: ",
+      "@include input((",
+      "\t  d: ,",
+      "\t  w: ,",
+      "\t  h: ,",
+      "\t  f: ,",
+      "\t  l: ,",
+      "\t  c: ,",
       "\t  bd: 1 solid ",
       "\t));"
     ],
@@ -2370,11 +2370,11 @@
   "input-block": {
     "prefix": "input-block",
     "body": [
-      "input-block:((",
-      "\t  h: ",
-      "\t  f: ",
-      "\t  l: ",
-      "\t  c: ",
+      "@include input-block((",
+      "\t  h: ,",
+      "\t  f: ,",
+      "\t  l: ,",
+      "\t  c: ,",
       "\t  bd: 1 solid ",
       "\t));"
     ],
@@ -2383,12 +2383,12 @@
   "input-inblock": {
     "prefix": "input-inblock",
     "body": [
-      "input-inblock:((",
-      "\t  w: ",
-      "\t  h: ",
-      "\t  f: ",
-      "\t  l: ",
-      "\t  c: ",
+      "@include input-inblock((",
+      "\t  w: ,",
+      "\t  h: ,",
+      "\t  f: ,",
+      "\t  l: ,",
+      "\t  c: ,",
       "\t  bd: 1 solid ",
       "\t));"
     ],
